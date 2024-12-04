@@ -25,7 +25,7 @@ spec:
   - name: output-image
     value: quay.io/redhat-user-workloads/smatula-tenant/devfile-sample-python-dance:on-pr-{{revision}}
   - name: image-expires-after
-    value: 5d
+    value: 1w
   - name: dockerfile
     value: ./docker/Dockerfile
   pipelineSpec:
